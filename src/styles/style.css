@@ -1,0 +1,36 @@
+.logo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+}
+.hd{
+    color: rgb(245,222,179);
+    background-color: #3c341f;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+
+}
+h1{
+    color: #fff;
+}
+p{
+    color: rgb(245,222,179);
+}
+.container-fluid{
+    background-color: #3c341f;
+}
+.btn{
+    background-color: rgb(245,222,179);
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 637px){
+    .logo{
+        visibility: visible;
+    }
+    .hd{
+        visibility: hidden;
+    }
+}
