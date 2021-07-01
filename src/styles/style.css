@@ -5,7 +5,7 @@
     visibility: hidden;
 }
 .hd{
-    color: rgb(245,222,179);
+    color: #fff;
     background-color: #3c341f;
     padding: 5px;
     position: absolute;
@@ -22,8 +22,11 @@ p{
     background-color: #3c341f;
 }
 .btn{
-    background-color: rgb(245,222,179);
+    background-color: rgb(201, 186, 158);
     margin-bottom: 1rem;
+}
+.card{
+    width: 19rem;
 }
 
 @media screen and (min-width: 637px){

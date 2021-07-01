@@ -1,9 +1,9 @@
 import React from 'react'
-import Home from './components/home'
+import Main from './components/Main'
 export default function App() {
     return (
         <div>
-            <Home/>
+            <Main/>
         </div>
     )
 }
